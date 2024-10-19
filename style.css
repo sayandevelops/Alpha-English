@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-top:10px ;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#options button {
+    width: 100%;
+    margin: 5px 0;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+/* Footer styling */
+footer {position: relative;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect on footer */
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.like-container {
+    margin-top: 20px;
+}
+
+#like-button {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #005ed0; /* Bright green for contrast */
+    color: white;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow on like button */
+}
+
+#like-button:hover {
+    background-color: #0064a3;
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+.Logout{
+    padding: 35px ;
+  
+}
+.Logout a{
+
+  padding: 10px 20px;
+  margin: 20px 20px;
+  background-color: rgb(255, 0, 43);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  &:active{
+    transform: scale(0.9);
+  }
+
+}
