@@ -1,4 +1,4 @@
-alert("HELLo WORld")
+
 let words = [ 
     { "word": "apple", "meaning": "আপেল", "pronunciation": "অ্যাপল" },
     { "word": "ball", "meaning": "বল", "pronunciation": "বল" },
